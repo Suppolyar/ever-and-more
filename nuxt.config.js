@@ -38,7 +38,8 @@ export default {
   ],
   googleFonts: {
     families: {
-      Lora: [400, 500, 700]
+      Lora: [400, 500, 700],
+      'Pinyon Script': [400]
     }
   },
 
