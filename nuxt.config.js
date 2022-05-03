@@ -6,22 +6,22 @@ export default {
   head: {
     title: 'ever-and-more',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'en',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-    ]
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '@/assets/css/index.css'
+    '@/assets/css/index.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -39,8 +39,8 @@ export default {
   googleFonts: {
     families: {
       Lora: [400, 500, 700],
-      'Pinyon Script': [400]
-    }
+      'Pinyon Script': [400],
+    },
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -51,11 +51,12 @@ export default {
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
+    // Workaround to avoid enforcing hard-coded localhost:3000:
+    // https://github.com/nuxt-community/axios-module/issues/308
     baseURL: '/',
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
-}
+  },
+};
