@@ -1,9 +1,16 @@
 import { defineConfig } from '@windicss/plugin-utils'
+import plugin from 'windicss/plugin';
+import colors from 'windicss/colors';
 
+const designColors = {
+  brandPurple: "#624776"
+}
 export default defineConfig({
-  /**
-   * Write windi classes in html attributes.
-   * @see https://windicss.org/features/attributify.html
-   */
+  theme: {
+    backgroundColor: theme => ({
+      ...theme('colors'),
+      brandPurple: "#624776"
+    }),
+  },
   attributify: true,
 })

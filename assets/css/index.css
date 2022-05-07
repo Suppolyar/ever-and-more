@@ -1,4 +1,5 @@
 @import "./elements.css";
+@import "./cards.css";
 
 * {
   font-family: 'Lora', serif;
@@ -6,7 +7,7 @@
   @apply transition duration-300
 }
 body {
-  background-color: #faf8f3;
+  background-color: #fffff8;
 }
 h1 {
   @apply text-5xl
@@ -16,6 +17,9 @@ h2 {
 }
 h3 {
   @apply text-xl
+}
+nav a {
+  @apply text-white hover:text-gray-300
 }
 hr {
   @apply my-8 w-1/3 mx-auto border-black
