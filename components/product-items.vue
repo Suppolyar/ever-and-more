@@ -1,16 +1,18 @@
 <template>
-  <div class="lg:(grid grid-cols-2) xl:grid-cols-4 gap-8 px-2 ">
+  <div class="lg:grid lg:grid-cols-3 gap-8 px-2 ">
     <div
       v-for="(item, index) in PRODUCTS"
       :key="index"
-      class="card-item mb-2"
+      class="card-item mb-2 group"
     >
       <div class="space-y-4 mb-4">
-        <img
-          class="h-sm w-full object-fill"
-          :src="item.photo"
-          alt=""
-        >
+        <div class="overflow-hidden">
+          <img
+            class="h-sm w-full object-fill transform group-hover:scale-105"
+            :src="item.photo"
+            alt=""
+          >
+        </div>
         <h2 class="text-white">
           {{ item.title }}
         </h2>

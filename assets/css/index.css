@@ -4,7 +4,8 @@
 * {
   font-family: 'Lora', serif;
   color: #212020;
-  @apply transition duration-300
+  scroll-behavior: smooth;
+  @apply transition duration-300;
 }
 body {
   background-color: #fffff8;

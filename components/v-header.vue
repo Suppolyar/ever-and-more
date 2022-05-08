@@ -9,9 +9,9 @@
           >
             Ever&More
           </NuxtLink>
-          <a href="">О нас</a>
-          <a href="">Преимущества</a>
-          <a href="">Товары</a>
+          <a href="#about">О нас</a>
+          <a href="#benefits">Преимущества</a>
+          <a href="#products">Товары</a>
           <a href="">Наши Клинеты</a>
         </div>
         <div class="flex flex-col items-end">

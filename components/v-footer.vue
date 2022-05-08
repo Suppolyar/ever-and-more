@@ -2,9 +2,9 @@
   <footer class="w-full bg-brandPurple py-4">
     <nav class="container mx-auto lg:flex flex-row justify-between px-2">
       <div class="flex flex-col items-start space-y-2 text-white mb-4">
-        <a href="">О нас</a>
-        <a href="">Преимущества</a>
-        <a href="">Товары</a>
+        <a href="#about">О нас</a>
+        <a href="#benefits">Преимущества</a>
+        <a href="#products">Товары</a>
         <a href="">Наши Клинеты</a>
       </div>
       <div class="flex flex-row items-center space-x-4 mb-4">
