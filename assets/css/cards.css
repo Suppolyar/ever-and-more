@@ -1,3 +1,0 @@
-.card-item {
-  @apply flex flex-col justify-between py-6 px-6 bg-brandPurple rounded-xl bg-opacity-80 hover:(shadow-2xl bg-opacity-100);
-}

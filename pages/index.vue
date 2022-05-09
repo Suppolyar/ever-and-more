@@ -12,7 +12,10 @@
         </h3>
       </div>
     </div>
-    <div id="about" class="container mx-auto mb-16">
+    <div
+      id="about"
+      class="container mx-auto mb-16"
+    >
       <h1 class="title mb-8">
         О нас
       </h1>
@@ -113,33 +116,51 @@
       </div>
     </div>
     <ProductsGrid class="mb-12" />
-    <div id="benefits" class="container mx-auto mb-16">
+    <div
+      id="benefits"
+      class="container mx-auto mb-16"
+    >
       <h1 class="title mb-12">
         Преимущества
       </h1>
       <div class="lg:grid grid-cols-2 space-y-8 px-2">
         <div class="col-span-1 lg:text-left">
-          <h2 class="mb-2">Комфорт</h2>
-          <p>Волокна кашемира намного тоньше шелковых нитей,
+          <h2 class="mb-2">
+            Комфорт
+          </h2>
+          <p>
+            Волокна кашемира намного тоньше шелковых нитей,
             поэтому по мягкости ткань значительно превосходит шелк.
-            Меньше остальных материалов подвержен образованию катышков.</p>
+            Меньше остальных материалов подвержен образованию катышков.
+          </p>
         </div>
-        <div class="col-span-1"></div>
-        <div class="col-span-1"></div>
+        <div class="col-span-1" />
+        <div class="col-span-1" />
         <div class="col-span-1 lg:text-right">
-          <h2 class="mb-2">Тепло</h2>
-          <p>Низкая теплопроводность волокна делает кашемир удивительно теплым материалом.
-            Даже тонкий, почти прозрачный, кашемир сохраняет тепло.</p>
+          <h2 class="mb-2">
+            Тепло
+          </h2>
+          <p>
+            Низкая теплопроводность волокна делает кашемир удивительно теплым материалом.
+            Даже тонкий, почти прозрачный, кашемир сохраняет тепло.
+          </p>
         </div>
         <div class="col-span-1 lg:text-left">
-          <h2 class="mb-2">Здоровье</h2>
-          <p>Кашемировая ткань не вызывает аллергической реакции, так как
+          <h2 class="mb-2">
+            Здоровье
+          </h2>
+          <p>
+            Кашемировая ткань не вызывает аллергической реакции, так как
             в ней не заводится пылевой клещ. Сохраняя тепло ,
-            кашемир уменьшает интенсивность суставных болей.</p>
+            кашемир уменьшает интенсивность суставных болей.
+          </p>
         </div>
       </div>
     </div>
-    <div id="products" class="container mx-auto mb-16">
+    <div
+      id="products"
+      class="container mx-auto mb-16"
+    >
       <h1 class="title mb-8">
         Наши товары:
       </h1>
@@ -149,12 +170,9 @@
 </template>
 
 <script>
-import ProductsGrid from '@/components/products-grid';
-import ProductItems from '@/components/product-items';
 
 export default {
   name: 'IndexPage',
-  components: { ProductsGrid, ProductItems },
   layout: 'DefaultLayout',
 };
 </script>
