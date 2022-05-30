@@ -164,16 +164,33 @@
       <h1 class="title mb-8">
         Наши товары:
       </h1>
-      <ProductItems />
+      <ProductItems :list="demoProducts" class="mb-8"/>
+      <div class="px-2 text-center">
+        <nuxt-link to="catalog">
+          <button class="bg-brandPurple bg-opacity-70 hover:(bg-opacity-100) text-white rounded-xl px-4 py-2">Посмотреть все</button>
+        </nuxt-link>
+      </div>
     </div>
   </section>
 </template>
 
 <script>
 
+import PRODUCTS from "@/components/products";
+
 export default {
   name: 'IndexPage',
   layout: 'DefaultLayout',
+  data() {
+    return {
+      PRODUCTS,
+    };
+  },
+  computed: {
+    demoProducts() {
+      return this.PRODUCTS.slice(0, 3)
+    }
+  }
 };
 </script>
 

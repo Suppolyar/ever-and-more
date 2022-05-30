@@ -9,7 +9,7 @@ export default defineConfig({
   theme: {
     backgroundColor: theme => ({
       ...theme('colors'),
-      brandPurple: "#624776"
+      brandPurple: "#CC99CC"
     }),
   },
   attributify: true,
